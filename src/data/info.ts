@@ -19,7 +19,7 @@ export const info = {
       ],
     },
     {
-      name: "M.B International Sr Sec School ",
+      name: "M.B International School ",
       location: "Kota , Rajasthan, India",
       startDate: "2020",
       endDate: "2021",
