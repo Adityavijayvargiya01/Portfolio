@@ -20,8 +20,8 @@ export const info = {
     {
       name: "Manipal University Jaipur",
       location: "Jaipur, Rajasthan, India",
-      startDate: "2026",
-      endDate: "2022",
+      startDate: "2022",
+      endDate: "2026",
       description: [
         "Btech, Computer Science and Engineering",
       ],
