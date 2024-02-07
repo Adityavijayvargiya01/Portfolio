@@ -6,6 +6,7 @@ import Hero from "@components/home/Hero.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import Education from "@components/home/Education.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -28,7 +29,7 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EDUCATION"} details={info.education} />
+      <Education title={"EDUCATION"} details={info.education} />
       <Experience title={"DEVELOPMENT FRAMEWORK"} details={info.framework} />
       <Experience title={"EXPERIENCE"} details={info.experience} />
 

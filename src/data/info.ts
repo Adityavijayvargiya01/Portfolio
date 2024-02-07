@@ -1,10 +1,30 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Aditya Vijayvargiya",
-  jobDescription: "Web Developer",
+  jobDescription: "Software Developer",
   about: `I'm a software engineer based in Pune, India, with 3 years of experience in front-end development. I specialize in Next.js, React, Tailwind CSS, and Astro, with skills in Node.js and Express.js. I've completed numerous web projects from scratch and continue to explore new technologies like React Native and Firebase.`,
 
   experience: [
+    {
+      name: "Girlscript Summer of Code",
+      location: "Open Source (Remote)",
+      startDate: "20th May 2023",
+      endDate: "10th August 2023", 
+      description: [
+        "During my participation in the Girlscript Summer of Code, I learned open-source project contributions, gained insights into the open-source community, and developed proficiency in the Git and GitHub workflow within a collaborative environment."
+      ],
+    },
+
+    {
+      name: "Hacktoberfest 2021",
+      location: "Open Source (Remote)",
+      startDate: "1st October 2022",
+      endDate: "31st October 2022",
+      description:[
+        "First Open Source Contribution",
+      ],
+
+    }
     
   ],
 
@@ -15,7 +35,7 @@ export const info = {
   education: [
     {
       name: "Manipal University Jaipur",
-      location: "Jaipur, Rajasthan, India",
+      location: "Jaipur , Rajasthan (India)",
       startDate: "2022",
       endDate: "2026",
       description: [
@@ -24,7 +44,7 @@ export const info = {
     },
     {
       name: "M.B International School ",
-      location: "Kota , Rajasthan, India",
+      location: "Kota , Rajasthan (India)",
       startDate: "2020",
       endDate: "2021",
       description: ["Senior Secondary Schooling"],
@@ -36,6 +56,7 @@ export const info = {
     github: "https://github.com/Adityavijayvargiya01",
     email: "mailto:adityavijayvargiya2022@gmail.com",
     linkedin: "https://www.linkedin.com/in/aditya-vijayvargiya-15034924a/",
+    medium: "https://medium.com/@adityavijayvargiya2022",
   },
 
   projects: [
