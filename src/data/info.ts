@@ -8,6 +8,10 @@ export const info = {
     
   ],
 
+  framework: [
+
+  ],
+
   education: [
     {
       name: "Manipal University Jaipur",
@@ -15,7 +19,7 @@ export const info = {
       startDate: "2022",
       endDate: "2026",
       description: [
-        "Btech, Computer Science and Engineering",
+        "Btech - Computer Science and Engineering",
       ],
     },
     {
