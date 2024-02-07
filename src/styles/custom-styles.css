@@ -19,7 +19,7 @@
   background-clip: text;
   text-fill-color: transparent;
   background-size: 150% 150%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 3s ease infinite;
   line-height: 1.2;
 }
 
