@@ -6,7 +6,7 @@ export const info = {
 
   experience: [
     {
-      name: "Girlscript Summer of Code",
+      name: "Girlscript Summer of Code 2023",
       location: "Open Source (Remote)",
       startDate: "20th May 2023",
       endDate: "10th August 2023", 
@@ -16,7 +16,7 @@ export const info = {
     },
 
     {
-      name: "Hacktoberfest 2021",
+      name: "Hacktoberfest 2022",
       location: "Open Source (Remote)",
       startDate: "1st October 2022",
       endDate: "31st October 2022",
