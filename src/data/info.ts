@@ -7,22 +7,24 @@ export const info = {
   experience: [
     {
       name: "Girlscript Summer of Code 2023",
-      location: "Open Source (Remote)",
+      location: "Open Source [Remote]",
       startDate: "20th May 2023",
       endDate: "10th August 2023", 
       description: [
         "During my participation in the Girlscript Summer of Code, I learned open-source project contributions, gained insights into the open-source community, and developed proficiency in the Git and GitHub workflow within a collaborative environment."
       ],
+      thumbnail: "/assets/images/Girlscript_Certificate.png",
     },
 
     {
       name: "Hacktoberfest 2022",
-      location: "Open Source (Remote)",
+      location: "Open Source [Remote]",
       startDate: "1st October 2022",
       endDate: "31st October 2022",
       description:[
         "First Open Source Contribution",
       ],
+      thumbnail: "https://holopin.me/adityavijay01",
 
     }
     
