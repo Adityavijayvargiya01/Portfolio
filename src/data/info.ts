@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Aditya Vijayvargiya",
   jobDescription: "Software Developer",
-  about: `I'm a software engineer based in Pune, India, with 3 years of experience in front-end development. I specialize in Next.js, React, Tailwind CSS, and Astro, with skills in Node.js and Express.js. I've completed numerous web projects from scratch and continue to explore new technologies like React Native and Firebase.`,
+  about: `I build scalable and reliable web applications from stable backend and frontend libraries and frameworks that work and generate revenue for you !`,
 
   experience: [
     {
