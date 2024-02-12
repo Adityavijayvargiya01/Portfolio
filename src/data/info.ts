@@ -69,5 +69,13 @@ export const info = {
       githubUrl: "https://github.com/Adityavijayvargiya01/ElevenHits",
       liveUrl: "https://eleven-hits.vercel.app/",
     },
+
+    {
+      title: "Waveform",
+      isFeatured: true, 
+      thumbnail: "/assets/images/Waveform.png",
+      githubUrl: "https://github.com/Adityavijayvargiya01/Waveform",
+      liveUrl: "https://github.com/Adityavijayvargiya01/Waveform",
+    },
   ],
 };
