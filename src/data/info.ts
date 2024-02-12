@@ -73,7 +73,7 @@ export const info = {
     {
       title: "Waveform",
       isFeatured: true, 
-      thumbnail: "/assets/images/Waveform.png",
+      thumbnail: "/assets/images/Waveform2.png",
       githubUrl: "https://github.com/Adityavijayvargiya01/Waveform",
       liveUrl: "https://github.com/Adityavijayvargiya01/Waveform",
     },
