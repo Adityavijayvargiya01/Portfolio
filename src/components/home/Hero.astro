@@ -6,12 +6,9 @@ const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <p class="dark:text-light mt-[110px] text-2xl">Hi , I’m</p>
+  <p class="dark:text-gray mt-[110px] text-lg">Hi , I’m</p>
   <h1 class="py-2">{name}</h1>
-  <p class="dark:text-light text-lg mb-8 ">
+  <p class="dark:text-gray text-lg mb-48 sm:w-1/2">
     {about}
   </p>
-  <div class="flex justify-center">
-      <a href="" class="border-2 border-indigo mb-28 p-4 rounded-xl dark:text-white">Let's Connect over Coffee</a>
-  </div>
 </section>

@@ -22,7 +22,7 @@ export const info = {
       startDate: "1st October 2022",
       endDate: "31st October 2022",
       description:[
-        "First Open Source Contribution",
+        "Engaged in my first open-source contribution during this remote event, fostering collaboration and learning within the open-source community.",
       ],
       thumbnail: "https://holopin.me/adityavijay01",
 
