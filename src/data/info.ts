@@ -17,6 +17,14 @@ export const info = {
     },
 
     {
+      name: "IT Trainee",
+      location: "Grasim Industries Limited , Aditya Birla Group",
+      description:[
+        "Collaborated with the IT department to understand the impacts of Information technology and automation in the pulp and fiber industry.",
+      ],
+    },
+
+    {
       name: "Hacktoberfest 2022",
       location: "Open Source [Remote]",
       startDate: "1st October 2022",
@@ -27,7 +35,7 @@ export const info = {
       thumbnail: "https://holopin.me/adityavijay01",
 
     }
-    
+
   ],
 
   framework: [
