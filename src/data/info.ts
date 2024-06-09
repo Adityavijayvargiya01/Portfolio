@@ -71,6 +71,27 @@ export const info = {
 
   projects: [
     {
+      title: "InstaTravel",
+      isFeatured: true,
+      thumbnail: "/assets/images/InstaTravel.png",
+      githubUrl: "https://github.com/Adityavijayvargiya01/InstaTravel.git",
+      liveUrl: "https://instatravel.vercel.app/", 
+    },
+    {
+      title: "Web3Domains",
+      isFeatured: true,
+      thumbnail: "/assets/images/Web3Domains.png",
+      githubUrl: "https://github.com/Adityavijayvargiya01/Web3Domains",
+      liveUrl: "https://github.com/Adityavijayvargiya01/Web3Domains",
+    },
+    {
+      title: "BlogBot",
+      isFeatured: true,
+      thumbnail: "/assets/images/BlogBot.png",
+      githubUrl: "https://github.com/Adityavijayvargiya01/BlogBot.git",
+      liveUrl: "https://github.com/Adityavijayvargiya01/BlogBot.git",
+    },
+    {
       title: "ElevenHits",
       isFeatured: true,
       thumbnail: "/assets/images/ElevenHits.png",
