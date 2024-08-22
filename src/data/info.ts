@@ -7,7 +7,7 @@ export const info = {
   experience: [
     {
       name: "Omdena Project : Kutch Chapter",
-      location: "Kutch , Gujrat , India",
+      location: "Kutch-Gujrat , India [Remote]",
       startDate: "July 2024",
       endDate: "August 2024",
       description: [
