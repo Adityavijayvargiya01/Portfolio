@@ -13,6 +13,7 @@ export const info = {
       description: [
         "Lead ML Engineer"
       ],
+      thumbnail: "/assets/images/omdena.png",
     },
 
     {
