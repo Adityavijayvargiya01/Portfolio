@@ -6,6 +6,16 @@ export const info = {
 
   experience: [
     {
+      name: "Omdena Project : Kutch Chapter",
+      location: "Kutch , Gujrat , India",
+      startDate: "July 2024",
+      endDate: "August 2024",
+      description: [
+        "Lead ML Engineer"
+      ],
+    },
+
+    {
       name: "Girlscript Summer of Code 2023",
       location: "Open Source [Remote]",
       startDate: "20th May 2023",
@@ -19,9 +29,12 @@ export const info = {
     {
       name: "IT Trainee",
       location: "Grasim Industries Limited , Aditya Birla Group",
+      startDate: "6th June 2023",
+      endDate: "20th June 2023",
       description:[
         "Collaborated with the IT department to understand the impacts of Information technology and automation in the pulp and fiber industry.",
       ],
+      thumbnail: "/assets/images/Grasim.jpg",
     },
 
     {
