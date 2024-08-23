@@ -35,6 +35,9 @@ export const info = {
       endDate: "20th June 2023",
       description:[
         "Collaborated with the IT department to understand the impacts of Information technology and automation in the pulp and fiber industry.",
+        "Analyzed effects on operational efficiency and production processes.",
+        "Identified automation opportunities to streamline workflows and optimize resources.",
+        "Collaborated on effective IT integration strategies to drive innovation and competitiveness.",
       ],
       thumbnail: "/assets/images/Grasim.jpg",
     },
