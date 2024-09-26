@@ -11,8 +11,8 @@ export const info = {
       startDate: "July 2024",
       endDate: "August 2024",
       description: [
-        "I led the frontend development team and contributed as a Lead ML engineer in  project aimed at promoting sustainable urban gardening.",
-        "I helped develop a machine learning model that analyzes geolocation and environmental data, providing users with personalized plant cultivation recommendations tailored to urban environments."
+        "I led the frontend development team and contributed as a Lead ML engineer , Completed the project in 6 - Weeks. The main motive of this chapter was promoting sustainable urban gardening.",
+        "We Together as a team developed a machine learning model that analyzes geolocation and environmental data, providing users with personalized plant cultivation recommendations tailored to urban environments."
       ],
       thumbnail: "/assets/images/omdena.png",
     },
