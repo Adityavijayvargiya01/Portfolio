@@ -93,7 +93,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/InstaTravel.png",
       githubUrl: "https://github.com/Adityavijayvargiya01/InstaTravel.git",
-      liveUrl: "https://instatravel.vercel.app/", 
+      liveUrl: "https://insta-travel.vercel.app/", 
     },
     {
       title: "Web3Domains",
