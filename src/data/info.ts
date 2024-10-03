@@ -18,17 +18,6 @@ export const info = {
     },
 
     {
-      name: "Girlscript Summer of Code 2023",
-      location: "Open Source [Remote]",
-      startDate: "20th May 2023",
-      endDate: "10th August 2023", 
-      description: [
-        "During my participation in the Girlscript Summer of Code, I learned open-source project contributions, gained insights into the open-source community, and developed proficiency in the Git and GitHub workflow within a collaborative environment."
-      ],
-      thumbnail: "/assets/images/Girlscript_Certificate.png",
-    },
-
-    {
       name: "IT Trainee",
       location: "Grasim Industries Limited , Aditya Birla Group",
       startDate: "6th June 2023",
