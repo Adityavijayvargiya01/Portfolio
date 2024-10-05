@@ -98,14 +98,6 @@ export const info = {
       liveUrl: "https://github.com/Adityavijayvargiya01/BlogBot.git",
     },
     {
-      title: "ElevenHits",
-      isFeatured: true,
-      thumbnail: "/assets/images/ElevenHits.png",
-      githubUrl: "https://github.com/Adityavijayvargiya01/ElevenHits",
-      liveUrl: "https://eleven-hits.vercel.app/",
-    },
-
-    {
       title: "Waveform",
       isFeatured: true, 
       thumbnail: "/assets/images/Waveform2.png",
