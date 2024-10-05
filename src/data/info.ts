@@ -28,7 +28,6 @@ export const info = {
         "Identified automation opportunities to streamline workflows and optimize resources.",
         "Collaborated on effective IT integration strategies to drive innovation and competitiveness.",
       ],
-      thumbnail: "/assets/images/Grasim_logo_Aw-01.jpg",
     },
 
     {
