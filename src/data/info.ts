@@ -2,7 +2,8 @@ export const info = {
   baseUrl: "https://www.adityavijayvargiya.live",
   name: "Aditya Vijayvargiya",
   jobDescription: "Software Developer",
-  about: `I build scalable and reliable web applications from stable backend and frontend libraries and frameworks that work and generate revenue for you !`,
+  about: 
+  `I'm a CS Undergrad and Full-stack Developer, building Modern & Impactful web apps with passion for solving real-world problems.`,
 
   experience: [
     {
@@ -11,8 +12,8 @@ export const info = {
       startDate: "July 2024",
       endDate: "August 2024",
       description: [
-        "I led the frontend development team and contributed as a Lead ML engineer , Completed the project in 6 - Weeks. The main motive of this chapter was promoting sustainable urban gardening.",
-        "We Together as a team developed a machine learning model that analyzes geolocation and environmental data, providing users with personalized plant cultivation recommendations tailored to urban environments."
+        "During my Omdena internship, I led the frontend development team while also contributing as a Lead ML Engineer. Our project, as part of the Local Chapter Challenge in Kutch, focused on promoting sustainable urban gardening.",
+        "I helped the team develop a machine learning model that analyzed geolocation and environmental data to provide personalized plant cultivation recommendations for urban settings. This dual role allowed me to blend user interface design with innovative ML solutions, and we successfully completed the project in just six weeks."
       ],
       thumbnail: "/assets/images/omdena.png",
     },
@@ -23,11 +24,11 @@ export const info = {
       startDate: "6th June 2023",
       endDate: "20th June 2023",
       description:[
-        "Collaborated with the IT department to understand the impacts of Information technology and automation in the pulp and fiber industry.",
-        "Analyzed effects on operational efficiency and production processes.",
-        "Identified automation opportunities to streamline workflows and optimize resources.",
-        "Collaborated on effective IT integration strategies to drive innovation and competitiveness.",
+        "At Grasim Industries, I worked as an IT Trainee, where I collaborated with the IT department to understand how technology and automation were transforming the pulp and fiber industry.",
+        "My role involved analyzing existing systems and supporting initiatives aimed at integrating IT solutions to streamline operations.",
+        "This experience provided valuable insights into the practical application of technology in a traditional industry setting, and it enhanced my ability to adapt IT strategies to improve efficiency and process automation.",
       ],
+      thumbnail: "/assets/images/Grasim2.png",
     },
 
     {
@@ -37,6 +38,7 @@ export const info = {
       endDate: "31st October 2022",
       description:[
         "Engaged in my first open-source contribution during this remote event, fostering collaboration and learning within the open-source community.",
+        "Contributed to repositories on GitHub, explored version control in real-world projects, and gained hands-on experience with pull requests and code reviews.",
       ],
       thumbnail: "https://holopin.me/adityavijay01",
 
@@ -72,7 +74,7 @@ export const info = {
     github: "https://github.com/Adityavijayvargiya01",
     email: "mailto:adityavijayvargiya2022@gmail.com",
     linkedin: "https://www.linkedin.com/in/aditya-vijayvargiya-15034924a/",
-    medium: "https://medium.com/@adityavijayvargiya2022",
+    blogs: "https://aditya-vijayvargiya.notion.site/blogs",
   },
 
   projects: [
