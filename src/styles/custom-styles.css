@@ -4,7 +4,7 @@
   margin: 2rem 0;
   font-style: normal;
   font-weight: 600;
-  background: linear-gradient(
+  /*background: linear-gradient(
     85deg,
     #ef4444,
     #f43f5e,
@@ -24,6 +24,7 @@
   background-size: 150% 150%;
   animation: gradient 5s ease infinite;
   line-height: 1.2;
+  */
 }
 
 @keyframes gradient {
