@@ -1,13 +1,13 @@
 ---
 import { IHeroProps } from "@types";
 
-const { about } = Astro.props as IHeroProps; // Keep about prop
-const titlesForTyping = ["Aditya Vijayvargiya","Software Developer", "Programmer"]; // Define titles here
+
+const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <p class="dark:text-gray mt-[110px] text-lg fade-in-element opacity-0" style="--delay: 0ms;">Hi , I'm a</p> {/* Modified text slightly */}
-  <h1 id="name-heading" class="py-2.5 fade-in-element opacity-0" style="--delay: 200ms;"></h1>
+  <p class="dark:text-gray mt-[110px] text-lg fade-in-element opacity-0" style="--delay: 0ms;">Hi , I'm</p>
+  <h1 class="py-2.5 fade-in-element opacity-0" style="--delay: 200ms;">{name}</h1>
   <p class="dark:text-gray text-lg mb-24 sm:w-1/2 fade-in-element opacity-0" style="--delay: 400ms;">
     {about}
   </p>
@@ -25,91 +25,25 @@ const titlesForTyping = ["Aditya Vijayvargiya","Software Developer", "Programmer
     opacity: 1;
     transform: translateY(0);
   }
-  /* Add a min-height to h1 to prevent layout shifts during erasing/typing */
-  #name-heading {
-    min-height: 1.2em; /* Adjust based on your font size and line height */
-    /* Adding a non-breaking space as content when "empty" will also help */
-  }
 </style>
 
-<script define:vars={{ titles: titlesForTyping }}>
+<script>
   // Initialize animation when the page is loaded
   document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-in-element');
-    const nameHeadingElement = document.getElementById('name-heading');
-    let typingInitiatedForName = false; // Flag to ensure typing effect runs only once
-
+    
     // Create observer
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('fade-in-active');
-
-          if (entry.target === nameHeadingElement && !typingInitiatedForName) {
-            typingInitiatedForName = true; 
-
-            setTimeout(() => {
-              let currentTitleIndex = 0;
-              let currentCharIndex = 0;
-              let isErasing = false;
-              const typeSpeed = 40; // Speed of typing
-              const eraseSpeed = 60; // Speed of erasing
-              const pauseAfterTyping = 1500; // Pause after a word is typed
-              const pauseAfterErasing = 500; // Pause after a word is erased
-
-              function manageTypingEffect() {
-                if (!nameHeadingElement) return;
-
-                const currentText = titles[currentTitleIndex];
-
-                if (isErasing) {
-                  if (currentCharIndex > 0) {
-                    nameHeadingElement.textContent = currentText.substring(0, currentCharIndex - 1);
-                    currentCharIndex--;
-                    // If erased to empty, put a non-breaking space to maintain height
-                    if (nameHeadingElement.textContent === '') {
-                      nameHeadingElement.innerHTML = '&nbsp;'; 
-                    }
-                    setTimeout(manageTypingEffect, eraseSpeed);
-                  } else {
-                    isErasing = false;
-                    currentTitleIndex = (currentTitleIndex + 1) % titles.length;
-                    // Ensure it's ready for new text (it should be &nbsp; here)
-                    setTimeout(manageTypingEffect, pauseAfterErasing);
-                  }
-                } else { // Typing
-                  // If current content is just a non-breaking space, clear it before typing
-                  if (nameHeadingElement.innerHTML === '&nbsp;') {
-                    nameHeadingElement.textContent = '';
-                  }
-                  if (currentCharIndex < currentText.length) {
-                    nameHeadingElement.textContent += currentText.charAt(currentCharIndex);
-                    currentCharIndex++;
-                    setTimeout(manageTypingEffect, typeSpeed);
-                  } else {
-                    isErasing = true;
-                    setTimeout(manageTypingEffect, pauseAfterTyping);
-                  }
-                }
-              }
-              
-              if (nameHeadingElement) {
-                // Start with a non-breaking space to ensure initial height
-                nameHeadingElement.innerHTML = '&nbsp;'; 
-              }
-              manageTypingEffect();
-            }, 200); 
-          }
-          // We don't unobserve the nameHeadingElement if we want the loop to continue
-          // only if other elements should stop being observed.
-          if (entry.target !== nameHeadingElement) {
-            observer.unobserve(entry.target);
-          }
+          // Once the animation is done, we can stop observing
+          observer.unobserve(entry.target);
         }
       });
     }, {
-      threshold: 0.1, 
-      rootMargin: '0px 0px -50px 0px' 
+      threshold: 0.1, // Trigger when at least 10% of the element is visible
+      rootMargin: '0px 0px -50px 0px' // Slightly before the element comes into view
     });
     
     // Observe all fade elements
