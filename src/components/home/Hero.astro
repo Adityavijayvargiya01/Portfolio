@@ -6,9 +6,49 @@ const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <p class="dark:text-gray mt-[110px] text-lg">Hi , I’m</p>
-  <h1 class="py-2.5">{name}</h1>
-  <p class="dark:text-gray text-lg mb-24 sm:w-1/2">
+  <p class="dark:text-gray mt-[110px] text-lg fade-in-element opacity-0" style="--delay: 0ms;">Hi , I'm</p>
+  <h1 class="py-2.5 fade-in-element opacity-0" style="--delay: 200ms;">{name}</h1>
+  <p class="dark:text-gray text-lg mb-24 sm:w-1/2 fade-in-element opacity-0" style="--delay: 400ms;">
     {about}
   </p>
 </section>
+
+<style>
+  .fade-in-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition-delay: var(--delay, 0ms);
+  }
+
+  .fade-in-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  // Initialize animation when the page is loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    const fadeElements = document.querySelectorAll('.fade-in-element');
+    
+    // Create observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in-active');
+          // Once the animation is done, we can stop observing
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1, // Trigger when at least 10% of the element is visible
+      rootMargin: '0px 0px -50px 0px' // Slightly before the element comes into view
+    });
+    
+    // Observe all fade elements
+    fadeElements.forEach(element => {
+      observer.observe(element);
+    });
+  });
+</script>
