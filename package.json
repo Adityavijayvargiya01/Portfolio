@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "bun astro dev",
-    "start": "bun astro dev",
-    "build": "bun astro build",
-    "preview": "bun astro preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.4.0",
